@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(194, 135, 53);
 }
@@ -43,4 +44,51 @@ ul li::after{
 }
 ul li:hover::after{
     width: 100%;
+=======
+body{
+    background-color: rgb(194, 135, 53);
+}
+main{
+    display: flex;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+header{
+    width: 35;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: darkblue;
+    text-transform: uppercase;
+}
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+>>>>>>> 1b08ab8470da2f9ddf893b748cb797a75e2a5f1e
 }
