@@ -1,0 +1,109 @@
+
+  /* Header section */
+  .header {
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    color: white; 
+    text-align: center;
+    width: 1400px;
+    height: 800px;
+    padding: 1px; 
+  }
+  
+    
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+  }
+  
+  .header-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 05px; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+  }
+
+  /* Hero section */
+  .hero-section {
+    width: 637px;
+    height: 313px;
+    top: 372px;
+    left: 382px;
+  }
+  .hero h1 {
+    font-size: 1.5em; 
+    margin-bottom: 23px; 
+  }
+  .hero-btn {
+
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: chocolate; 
+      color: rgb(236, 231, 226)215, 208;
+      text-decoration : none;
+      -webkit-text-fill-color: aliceblue;
+      font-weight: bold;
+      border-radius: 10px; 
+      font-family:Arial, Helvetica, sans-serif;
+    } 
+ 
+  .hero p {
+    font-size: 1em; 
+    margin-bottom: 20px; 
+    color: aliceblue;
+  }
+  
+  body {
+  margin: auto;
+  padding:0%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  }
+
+ /* What we do section */
+ .what-we-do-section {
+  padding: 10px 20px;
+  background-color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.icon-section {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.icon-container {
+  text-align: center; 
+}
+
+.icon-container i {
+  font-size: 48px; 
+  color: #333; 
+}
+
+.text-container img {
+  max-width: 100%; 
+  margin-bottom: 10px; 
+}
+
