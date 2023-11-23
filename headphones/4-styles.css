@@ -1,0 +1,229 @@
+/* Header section */
+.header {
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    color: white; 
+    text-align: center;
+    width: 1400px;
+    height: 800px;
+    padding: 1px; 
+  }
+  
+    
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+  }
+  
+  .header-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 05px; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+  }
+
+  /* Hero section */
+  .hero-section {
+    width: 637px;
+    height: 313px;
+    top: 372px;
+    left: 382px;
+  }
+  .hero h1 {
+    font-size: 1.5em; 
+    margin-bottom: 23px; 
+  }
+  .hero-btn {
+
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: chocolate; 
+      color: rgb(236, 231, 226)215, 208;
+      text-decoration : none;
+      -webkit-text-fill-color: aliceblue;
+      font-weight: bold;
+      border-radius: 10px; 
+      font-family:Arial, Helvetica, sans-serif;
+    } 
+ 
+  .hero p {
+    font-size: 1em; 
+    margin-bottom: 20px; 
+    color: aliceblue;
+  }
+  
+  body {
+  margin: auto;
+  padding:0%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  }
+
+ /* What we do section */
+ .what-we-do-section {
+  padding: 10px 20px;
+  background-color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.icon-section {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.icon-container {
+  text-align: center; 
+}
+
+.icon-container i {
+  font-size: 48px; 
+  color: #333; 
+}
+
+.text-container img {
+  max-width: 100%; 
+  margin-bottom: 10px; 
+}
+
+/* Our results section */
+
+.banner-card img {
+   width: 1400px;
+   height: 650px;
+   top: 1494px;
+   left: 1px;
+}
+.banner-text {
+    position: relative;
+    text-align: center;
+    color: #f5f5f5;
+    text-align: center;
+}
+.banner-text h2 {
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.icon-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .icon-container {
+    text-align: center; 
+  }
+  
+  .icon-container i {
+    font-size: 48px; 
+    color: #333; 
+  }
+  
+  .text-container img {
+    max-width: 100%; 
+    margin-bottom: 10px; 
+  }
+
+  /* contact us section */
+
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    width: 60%;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #e74817; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    width: 35%;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  .hero-footer {
+    background-color: #0c243d; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 100px; 
+}
+  .social-links {
+    display: flex;
+  }
+  
+  .social-icon {
+    color: #fff; 
+    margin-right: 15px; 
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    text-decoration: underline;
+  }
